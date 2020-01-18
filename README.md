@@ -167,3 +167,6 @@ console.log(store.getState().counter.value); // prints: 1 -- called before timeo
 
 ### This
 `this` keyword in your methods does not refer to an actual object instance of that class. For `actions`, `getters` and `listeners`, `this`  holds the underlying `state` value of that model. For thunks, however, it refers to both the `state` and `actions` of the corresponding model.
+
+## Known Limitations
+You need to mark your listeners with `private` modifiers in order to hide them. Also `store.getListeners()` typings does not resolves correctly yet. We may address this issues in a future release.
