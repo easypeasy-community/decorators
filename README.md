@@ -11,6 +11,7 @@ npm install easy-peasy easy-peasy-decorators
 ## Basic Usage
 
 **Creating store with js**
+
 Here's how we create a _todos_ store with easy-peasy, using javascript. You can find more details on [easy-peasy](https://easy-peasy.now.sh/docs/introduction/) official documentation.
 
 ```js
@@ -29,6 +30,7 @@ export const store = createStore(model);
 ```
 
 **Creating store with ts**
+
 An equal store created by using Typescript. However it is handy for having a typed version of the store, we need to sync `ITodosModel` interface with the model object, `todosModel`. This solution works if you want to avoid using classes / don't mind refactoring interfaces. For more information please visit official [Typescript API](https://easy-peasy.now.sh/docs/typescript-api/).
 
 ```ts
@@ -54,6 +56,7 @@ export const store = createStore<IStoreModel>(todosModel);
 ```
 
 **Creating store with ts + decorators**
+
 This is what it looks like to create an _easy-peasy_ store with decorators. As you noticed, we are using a class and some decorators here. Hence the need for _interface-synching_ eliminated. Tho, we still need to match our model name, `todos`, with `IStoreInterface`.
 
 ```ts
