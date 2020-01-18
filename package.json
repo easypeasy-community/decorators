@@ -18,7 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/erencay/easy-peasy-decorators.git"
+        "url": "git+https://github.com/easypeasy-community/decorators.git"
     },
     "keywords": [
         "easy-peasy",
@@ -29,9 +29,9 @@
     "module": "dist/easy-peasy-decorators.esm.js",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/erencay/easy-peasy-decorators/issues"
+        "url": "https://github.com/easypeasy-community/decorators/issues"
     },
-    "homepage": "https://github.com/erencay/easy-peasy-decorators#readme",
+    "homepage": "https://github.com/easypeasy-community/decorators#readme",
     "peerDependencies": {
         "easy-peasy": ">= 3"
     },
