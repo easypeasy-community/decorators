@@ -1,6 +1,6 @@
 # easy-peasy-decorators
 
-An alternative way to create easy-peasy stores with Typescript decorators.
+An alternative way to create [`easy-peasy`](https://easy-peasy.now.sh/) stores with Typescript decorators.
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install easy-peasy easy-peasy-decorators
 
 **Creating store with js**
 
-Here's how we create a _todos_ store with easy-peasy, using javascript. You can find more details on [easy-peasy](https://easy-peasy.now.sh/docs/introduction/) official documentation.
+Here's how we create a _todos_ store with easy-peasy, using javascript. You can find more details on [easy-peasy official documentation](https://easy-peasy.now.sh/docs/introduction/).
 
 ```js
 import { createStore } from "easy-peasy";
