@@ -1,0 +1,51 @@
+{
+    "name": "easy-peasy-decorators",
+    "version": "0.0.1",
+    "description": "An alternative way to create easy-peasy store with Typescript decorators",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "private": true,
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "start": "tsdx watch",
+        "build": "tsdx build",
+        "test": "tsdx test",
+        "lint": "tsdx lint",
+        "prepare": "tsdx build",
+        "publish": "npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/erencay/easy-peasy-decorators.git"
+    },
+    "keywords": [
+        "easy-peasy",
+        "typescript",
+        "decorators"
+    ],
+    "author": "Eren CAY",
+    "module": "dist/easy-peasy-decorators.esm.js",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/erencay/easy-peasy-decorators/issues"
+    },
+    "homepage": "https://github.com/erencay/easy-peasy-decorators#readme",
+    "peerDependencies": {
+        "easy-peasy": ">= 3"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.9.0",
+        "easy-peasy": "^3.2.6",
+        "husky": "^4.0.10",
+        "jest": "^24.9.0",
+        "react": "^16.12.0",
+        "reflect-metadata": "^0.1.13",
+        "ts-jest": "^24.3.0",
+        "tsdx": "^0.12.3",
+        "tslib": "^1.10.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.7.5"
+    }
+}

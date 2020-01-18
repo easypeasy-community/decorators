@@ -1,0 +1,32 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "types/*"
+        ]
+    },
+    "rules": {
+        "max-line-length": [
+            true,
+            {
+                "limit": 100,
+                "ignore-pattern": "^import |^export {(.*?)}"
+            }
+        ],
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ]
+    }
+}
