@@ -1,6 +1,6 @@
 {
     "name": "easy-peasy-decorators",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "An alternative way to create easy-peasy store with Typescript decorators",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",

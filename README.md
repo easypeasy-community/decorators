@@ -1,6 +1,6 @@
 # easy-peasy-decorators
 
-easy-peasy-decorators is a lightweight ([1 kB minified + gzipped](https://bundlephobia.com/result?p=easy-peasy-decorators)),  zero-dependency package using the power of Typescript and decorator pattern to help you create easy-peasy stores in alternative way. 
+easy-peasy-decorators is a lightweight ([1 kB minified + gzipped](https://bundlephobia.com/result?p=easy-peasy-decorators)),  zero-dependency package using the power of Typescript and decorator pattern to help you create [`easy-peasy`](https://easy-peasy.now.sh/) stores in alternative way.
 
 ## Installation
 
