@@ -1,5 +1,4 @@
 import "jest";
-import "reflect-metadata";
 
 import { Action, Computed, Model, Property, Thunk, Listener } from "../src/decorators";
 import { createStore } from "../src/create-store";

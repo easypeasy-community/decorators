@@ -38,10 +38,6 @@ class MetadataStorage {
     private thunks: IThunkMetadata[] = [];
     private instances: IModelInstance[] = [];
 
-    constructor() {
-        this.checkReflectMetadataImported();
-    }
-
     public addModelMetadata(definition: IModelMetadata) {
         this.models.push({ ctor: definition.ctor.prototype, modelName: definition.modelName });
         this.instances.push({ ctor: definition.ctor.prototype, instance: new definition.ctor() });
@@ -114,19 +110,6 @@ class MetadataStorage {
         });
 
         return this.model;
-    }
-
-    private checkReflectMetadataImported() {
-        if (
-            typeof Reflect !== "object" ||
-            typeof Reflect.decorate !== "function" ||
-            typeof Reflect.metadata !== "function"
-        ) {
-            throw new Error(
-                "Please ensure you have imported the 'reflect-metadata' " +
-                    "package at the begining of your application",
-            );
-        }
     }
 }
 
